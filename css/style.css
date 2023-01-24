@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+}
+header div, header ul li a,header ul, .signup, .clothes{
+    display: flex;
+    align-items: center;
+}
+header div, #shopping .box, .card_box, #shipping, .ship_to_card, .customers, .comments, .text_post{
+    width: 1140px;
+    margin: auto;
+}
+header div{
+    justify-content: space-between;
+    padding: 27px 5px;
+}
+header ul{
+    gap: 30px;
+    font-size: 15px;
+    font-weight: 600;
+}
+header ul li{
+    list-style: none;
+    
+}
+header ul li a{
+    color: #1F2428;
+}
+a{
+    text-decoration: none;
+}
+#home_page{
+    padding: 72px 150px;
+    justify-content: space-between;
+}
+#home_page, .warehouse, .subscribe {
+    width: 1340px;
+    margin: auto;
+    background-image: linear-gradient(to right, rgba(91, 82, 163, 1), rgba(64, 184, 234, 1));
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius: 36px;
+}
+.warehouse{
+    padding: 29px 150px;
+    margin-bottom: 120px;
+
+}
+.warehouse div img{
+    margin-right: 56px;
+}
+.warehouse div p,.warehouse div h2 {
+    margin-bottom: 30px;
+}
+#shopping {
+    padding: 120px 0;
+}
+#home_page .post{
+    width: 570px;
+}
+#shopping h2{
+    font-size: 33px;
+    margin-bottom: 30px;
+}
+
+#home_page div h1{
+    font-size: 54px;
+    font-weight: bold;
+}
+#home_page div p{
+    margin-bottom: 36px;
+    line-height: 31px;
+}
+.signup a, #home_page div a, .warehouse div a, .click_button, .buy_card a, .com_ford, .sybs_button{    
+    background-image: linear-gradient(to right, rgba(0, 201, 123, 1), rgba(0, 217, 129, 1));
+    color: white;
+    border-radius: 36px;
+    padding: 17px;
+}
+.buttons, .buttons button,.card_box, .clothes div div{
+    display: flex;
+    gap: 10px;
+}
+.clothes{
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.clothes div div div{
+    display: block;
+}
+.clothes div div{
+    padding: 20px;
+    border-radius: 16px;
+    width: 270px;
+}
+.child{
+    margin-left: auto;
+}
+.buttons{
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.buttons button{
+    background-color: white;
+    padding: 24px;
+    align-items: center;
+    gap: 8px;
+}
+.buttons .click, .clothes_middle, .clothes div div{
+    background-color: #F2F6FC;;
+}
+.clothes_middle{
+    border-radius: 50%;
+}
+.sell{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sell .sell_card{
+    display: flex;
+    gap: 20px;
+}
+.sell div p{
+    margin-bottom: 7px;
+}
+.sell div h3{
+    font-size: 20px;
+}
+.card_box {
+    padding: 13px 50px;
+    justify-content: center;
+    background-color: #f3f3f395;
+    border-radius: 16px;
+    margin-bottom: 120px;
+}
+.card_box img{
+    margin-right: 20px ;
+}
+.card_box div{
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #C0C9D7;
+    padding: 8px 53px;
+}
+.card_box div p{
+    padding: 20px 0;
+}
+.card_box div:last-child{
+    border-right: none;
+}
+.ship_post{
+    width: 618px;
+    margin-bottom: 37px;
+}
+.ship_post h4{
+    font-size: 33px;
+    margin-bottom: 15px;
+}
+.ship_post p{
+    font-size: 15px;
+}
+.ship_region{
+    margin-bottom: 60px;
+    padding: 34px 26px;
+    border-radius: 16px;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2);
+}
+.ship_region form .box_input{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.ship_region form div .input_border{
+    width: 184px;
+}
+.label{    
+    display: block;
+    margin-bottom: 15px;
+}
+.inut_flex{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 15px 0;
+}
+.inut_flex input{
+    outline: none;
+}
+
+.input_border{
+    border-bottom: 1px solid black;
+}
+select{
+    width: 500px;
+}
+.click_button{
+    padding: 18px 55px;
+}
+.ship_menu{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2);
+    padding: 12px 23px;
+    margin-bottom: 15px;
+}
+.ship_menu_right{
+    display: flex;
+}
+.ship_menu_right div{
+    padding: 15px 48px;
+    border-left: 1px solid #C0C9D7;
+}
+.ship_menu_right div:last-child{
+    padding: 15px 20px;
+}
+.ship_to_card h3{
+    font-size: 27px;
+    font-weight: 800;
+    margin-bottom: 22px;
+}
+.ship_menu_left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.card{
+    padding: 120px 5px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 37px;
+}
+.cards div{
+    width: 24%;
+}
+.cards div h5{
+    font-size: 15px;
+}
+.cards div p{
+    font-size: 12px;
+    line-height: 22px;
+}
+.buy_card{
+    width: 570px;
+    font-size: 15px;
+}
+.buy_card p{
+    margin-bottom: 50px;
+}
+.customers{
+    margin-bottom: 60px;
+}
+.customers h3{
+    font-size: 33px;
+    margin-bottom: 15px;
+}
+.customers p{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.customers_card{
+    display: flex;
+    justify-content: space-between;
+}
+.customers_card div{
+    width: 370px;
+    border-radius: 16px;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2);
+    padding: 26px 28px;
+    
+}
+.customers_card div p{
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+.customers_card div img{
+    margin-bottom: 23px;
+}
+.comments h2{
+    font-size: 27px;
+    margin-bottom: 30px;
+}
+.comments{
+    margin-bottom: 112px;
+}
+.comeen_cards{
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.comeen_cards, .com_card{
+    display: flex;
+    gap: 28px;
+}
+.com_card{
+    padding: 8px;
+    border-radius: 16px;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2);
+    align-items: center;
+}
+.com_card h4{
+    font-size: 13px;
+    padding: 6px 0;
+}
+.com_card p{
+    margin-bottom: 50px;
+}
+.com_card  span{
+    display: block;
+}
+.text_post h2{
+    font-size: 33px;
+    margin-bottom: 12px;
+}
+.text_post p{
+    line-height: 27px;
+    margin-bottom: 112px;
+}
+.subscribe{
+    color: white;
+    padding: 49px 150px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.subs{
+    background-color: transparent; 
+    outline: none;
+    color: white;
+}
+.mail{
+    width: 380px;
+    border-bottom: 1px solid white;
+
+}
+.subs::placeholder{
+    color: white;
+}
+
+.form_mail form{
+    display: flex;
+    gap: 30px;
+}
+.subs_text{
+    width: 361px;
+    font-size: 22px;
+}
